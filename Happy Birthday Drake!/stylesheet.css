@@ -1,0 +1,47 @@
+
+ body {
+ text-align: center;
+ color: #2d3b71;
+ font-size:24pt;
+ font-family:Comic Sans MS, Cursive;
+ }
+
+/*Styles for links*/
+/*Unvisited links*/
+a:link{
+    color:rgb(83, 23, 95);
+    font-family:Comic Sans MS,Cursive;
+    text-decoration: none;
+    text-align: center;
+   }
+   /*Visited links*/
+   a:visited{
+    color:rgb(228, 18, 105);
+    text-decoration:none;
+   }
+   /*Mouse pointer hovering over link*/
+   a:hover{
+    color: rgb(83, 23, 95);
+    background-color:rgb(228, 18, 105);
+   }
+   /*Mouse pointer on link and mouse button down*/
+   a:active{
+    background-color:silver;
+    text-decoration: none;
+   }
+
+ h1 {
+ color: #2d3b71;
+ }
+
+
+ p{
+    text-align:center;
+    padding:0px;
+    margin:0px;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+    }
